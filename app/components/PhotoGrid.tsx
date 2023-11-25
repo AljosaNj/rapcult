@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function PhotoGrid() {
   return (
-   <div className='bg-black'>
+   <div className='bg-darkgreen '>
     <br/>
     <br/>
     <br/>

@@ -17,9 +17,16 @@ export default function Hero() {
     AND STREAM YOUR WAY TO SUCCESS
     </p>
     
-    <a className="px-5 py-2 inline-block bg-cyan-500 text-white hover:bg-cyan-400 transition-colors mt-10  " href="">
-       JOIN RAPCULT
-       <IoMdArrowForward />
+    <a  className="px-5 py-2  pb-3 text-xs   inline-block  bg-red text-white transition-colors mt-10   "   
+    
+    
+    href="">
+      <div className="flex space-x-1  ">
+        JOIN RAPCULT
+        <br/>
+       <IoMdArrowForward size={"0.8rem"}  />
+      </div>
+       
     </a>
 
 
@@ -33,14 +40,7 @@ export default function Hero() {
 
 
 /*
-bg-slate-800
-bg-black/30
- */
 
-/*
- <a className="px-5 py-2 inline-block bg-cyan-500 text-white hover:bg-cyan-400 transition-colors mt-10" href="">
-        Get Started
-    </a>
-
+className="px-5 py-2 inline-block bg-cyan-500 text-white hover:bg-cyan-400 transition-colors mt-10  "
 
 */

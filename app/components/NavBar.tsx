@@ -49,43 +49,43 @@ export default function HavBar() {
                 navbar ? 'p-12 md:p-0 block' : 'hidden'
               }`}
             >
-              <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-4 text-xs text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+              <ul className="h-screen md:h-auto items-center justify-center md:flex  ">
+                <li className="pb-4 text-xs text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-red  border-red  md:hover:text-red md:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
                     HOW IT WORKS
                   </Link>
                 </li>
-                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-red  border-red  md:hover:text-red md:hover:bg-transparent">
                   <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                   PACKAGES
                   </Link>
                 </li>
-                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent ">
+                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0 hover:bg-red  border-red  md:hover:text-red     md:hover:bg-transparent ">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     SUCCESS STORIES
                   </Link>
                 </li>
-                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0   hover:bg-red  border-red  md:hover:text-red    md:hover:bg-transparent">
                   <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                    ABOUT RAPCULT
                   </Link>
                 </li>
 
-                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0 hover:bg-red  border-red  md:hover:text-red     md:hover:bg-transparent">
                   <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                     RAPCULT
                   </Link>
                 </li>
 
-         <li className="  pb-4 text-sm text-white py-2 px-5 text-center  border-b-2     md:border-b-0 md:hover:bg-transparent 
+         <li className="  pb-3 text-xs text-white py-2 px-4  text-center   md:hover:bg-transparent 
          
           invisible md:visible md:flex
-
-        flex space-x-1  items-center  bg-rose-500 hover:bg-rose-600 rounded-md  drop-shadow-md 
+            flex space-x-1   
+          items-center  bg-red drop-shadow-md 
          
          ">
               
-<span className="text-white    ">  JOIN RAPCULT  </span>
+<a className="text-white    ">  JOIN RAPCULT  </a>
                  <IoMdArrowForward />
 
 

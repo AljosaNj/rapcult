@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Logo() {
   return (
     <div className=' pb-20   items-center text-center mx-auto '>
-   <h1  className='md:text-center'>TECHNOLOGY  TRUSTED BY</h1>
+   <h1  className='md:text-center text-grey'>TECHNOLOGY  TRUSTED BY</h1>
    <br/>
    <div className='grid sm:grid-cols-2       md:grid-cols-4 gap-8  sm:px-5      '   >
      <Image
