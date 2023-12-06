@@ -10,7 +10,7 @@ export default function Stepper() {
       <br/>
    <div className="container mx-auto  md:px-6    rounded-2xl  bg-boxgrey">
   
-  <section className="mb-32  ">
+  <section >
    
 
     <div className="background-radial-gradient text-center text-white lg:h-[400px] h-[300px] lg:pt-[80px] pt-[55px]">

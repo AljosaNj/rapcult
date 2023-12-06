@@ -9,10 +9,11 @@ export default function Home() {
     <div >
     <NavBar/>
      <Hero />
+     
      <About />
     
-   <Stepper />
-   <SliderCard />
+  <Stepper />
+    <SliderCard />
     </div>
     
   )

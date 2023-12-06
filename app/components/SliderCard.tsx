@@ -5,10 +5,13 @@ import testimonials from "@/app/data/testimonials.json"
 
 export default function SliderCard() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between py-24`}
+			
+    <div
+      className={`flex min-h-screen flex-col items-center justify-between py-24  bg-black`}
     >
       {/* 1. make sure our carousel container takes up the full screen width using w-screen */}
+						<h1 className="text-5xl font-semibold text-white" >Success stories</h1>
+						<br/>
       <div className="w-screen">
         <Slider options={{ align: "center" }}>
           {testimonials.map((testimonial, i) => (
@@ -20,7 +23,8 @@ export default function SliderCard() {
           ))}
         </Slider>
       </div>
-    </main>
+    </div>
+			
   );
 }
 

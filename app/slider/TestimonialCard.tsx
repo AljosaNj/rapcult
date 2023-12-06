@@ -16,13 +16,11 @@ type Props = {
 
 const TestimonialCard = (props: Props) => {
   return (
-  <div >
-
-
+  <div  >
 
 <div className="flex flex-col justify-center h-screen">
 	<div
-		className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-pacgrey">
+		className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-pacgrey bg-pacgrey cursor-pointer ">
 		<div className="w-full md:w-1/3 bg-pacgrey   grid place-items-center">
 			<img   src={props.imgSrc}  alt="tailwind logo"  />
     </div>
@@ -33,7 +31,7 @@ const TestimonialCard = (props: Props) => {
 				<h3 className="font-black text-red md:text-xl text-xl">{props.title}</h3>
 				<p className="md:text-base text-white text-base">{props.text}</p>
 			<br/>
-       <hr className="flex-grow  "/> 
+       <hr className=" flex-grow   "/> 
     
 
 
@@ -75,6 +73,40 @@ const TestimonialCard = (props: Props) => {
  
 
 
+<div className="flex justify-between item-center ">
+					<div className="flex items-center">
+					
+						<p className="text-grey  text-sm ml-1">
+							{props.par}
+							
+						</p>
+          
+
+					</div>
+
+
+
+
+					<div className="flex items-center">
+					
+						<p className="text-grey  text-sm ml-1">
+							{props.par1}
+							
+						</p>
+          
+
+					</div>
+					
+					<div className="flex items-center  px-5 py-1 ">
+					
+						<p className="text-grey  text-sm ml-1   ">
+							{props.par2}
+							
+						</p>
+         
+
+					</div>
+				</div>
 
 
 
@@ -82,8 +114,40 @@ const TestimonialCard = (props: Props) => {
 
 
 
-<div className="flex justify-between item-center pb-2">
-  <div className="px-3 py-1  ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+    
+
+  );
+};
+export default TestimonialCard;
+
+
+
+/*
+
+
+<div className="flex justify-between item-center ">
+  <div className="px-2  py-1 ">
     <p className="text-grey text-sm  font-medium ">{props.par}</p>
   </div>
 					
@@ -103,23 +167,4 @@ const TestimonialCard = (props: Props) => {
 
 
 
-
-    
-
-
-
-
-
-
-			</div>
-		</div>
-	</div>
-
-</div>
-
-
-    
-
-  );
-};
-export default TestimonialCard;
+*/
