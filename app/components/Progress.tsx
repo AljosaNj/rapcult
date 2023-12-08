@@ -7,7 +7,7 @@ export default function Progress() {
     <h1 className="text-4xl font-semibold"   >HOW IT WORKS</h1>
 </div>
 
-  <div className="space-y-9 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-red before:to-transparent bg-black ">
+  <div className="space-y-9 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-red  before:to-transparent bg-black ">
     <br/>
     <br/>
     

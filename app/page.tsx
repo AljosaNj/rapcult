@@ -3,6 +3,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Stepper from './components/Stepper';
 import SliderCard from './components/SliderCard';
+import ContactForm from './components/ContactForm';
+
 
 export default function Home() {
   return (
@@ -13,7 +15,9 @@ export default function Home() {
      <About />
     
   <Stepper />
+  
     <SliderCard />
+    <ContactForm />
     </div>
     
   )

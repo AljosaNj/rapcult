@@ -23,6 +23,8 @@ module.exports = {
        darkgrey: '#959fa5',
       },
        screens: { 'sm': { 'max': '767px' } },
+
+   
     },
   },
   plugins: [],
