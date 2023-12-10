@@ -3,7 +3,7 @@ export default function ContactForm() {
   return (
  
     <>
-<div className="flex items-center justify-center p-12 ">
+<div className="flex items-center justify-center  p-12">
 
   <div className="mx-auto w-full max-w-[550px] bg-pacgrey rounded-lg  py-2 px-6   ">
  <h4 className="text-center text-grey">Lorem ipsum dolor sit amet, consectetur<br/>

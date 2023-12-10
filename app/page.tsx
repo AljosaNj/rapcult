@@ -4,6 +4,8 @@ import About from './components/About';
 import Stepper from './components/Stepper';
 import SliderCard from './components/SliderCard';
 import ContactForm from './components/ContactForm';
+import AnimatedAccordionPage from './components/AnimatedAccordionPage';
+import ContactAccordion from './components/ContactAccordion';
 
 
 export default function Home() {
@@ -17,7 +19,9 @@ export default function Home() {
   <Stepper />
   
     <SliderCard />
-    <ContactForm />
+    
+
+   <ContactAccordion />
     </div>
     
   )
