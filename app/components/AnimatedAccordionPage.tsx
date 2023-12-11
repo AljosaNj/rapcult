@@ -35,7 +35,7 @@ export default function AnimatedAccordionPage() {
       text: "If you go over your organisations or user limit, a member of the team will reach out about bespoke pricing. In the meantime, ",
       active: false,
     },
-       {
+          {
       title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ",
       text: "If you go over your organisations or user limit, a member of the team will reach out about bespoke pricing. In the meantime, ",
       active: false,
@@ -45,7 +45,7 @@ export default function AnimatedAccordionPage() {
 
   return (
     <main className="relative min-h-screen flex flex-col    justify-center overflow-hidden  p-12 ">
-      <div className="w-full max-w-[550px] max-h-[570px]    mx-auto px-4 md:px-6 py-24   bg-black rounded-lg  pb-7 pt-6  border-2 border-grey "  >
+      <div className="   w-full max-w-[550px]     mx-auto px-4 md:px-6 py-24   bg-black rounded-lg  pb-11 pt-6  border-2 border-grey   "  >
 
        
 
@@ -71,5 +71,5 @@ className="w-full max-w-2xl mx-auto px-4 md:px-6 py-24 bg-red    rounded-lg   "
 
 <main className="relative min-h-screen flex flex-col justify-center bg-slate-50 overflow-hidden p-12 "></main>
 
-
+max-h-[570px]
 */

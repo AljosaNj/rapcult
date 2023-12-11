@@ -25,7 +25,7 @@ export default function Accordion({
 
   return (
      
-    <div className="pb-3 pt-3  bg-black  mx-auto w-full max-w-[510px]  ">
+    <div className="pb-3 pt-3  bg-black  mx-auto w-full max-w-[510px]   ">
       
       <h2>
         <button
