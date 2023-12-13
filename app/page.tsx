@@ -3,10 +3,9 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Stepper from './components/Stepper';
 import SliderCard from './components/SliderCard';
-import ContactForm from './components/ContactForm';
-import AnimatedAccordionPage from './components/AnimatedAccordionPage';
+
 import ContactAccordion from './components/ContactAccordion';
-import Footer from './components/Footer'
+
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
     
 
    <ContactAccordion />
-   <Footer />
+
     </div>
     
   )
