@@ -39,7 +39,7 @@ export default function Card() {
     ];
     return (
         <>
-            <div className="grid gap-2 lg:grid-cols-3 bg-pacgrey  ">
+            <div className="grid gap-2 lg:grid-cols-3 md:grid-cols-2  sm:grid-cols-2    bg-pacgrey  ">
                  
                 {posts.map((items, key) => (
                     <div className="w-full rounded-lg  lg:max-w-sm" key={key}>
