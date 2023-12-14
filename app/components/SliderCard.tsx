@@ -7,17 +7,17 @@ export default function SliderCard() {
   return (
 			
     <div
-      className={`flex min-h-screen flex-col items-center justify-between py-20  bg-black`}
+      className="flex  min-h-screen   flex-col items-center justify-between py-20  bg-black   " 
     >
       {/* 1. make sure our carousel container takes up the full screen width using w-screen */}
 						<h1 className="text-5xl font-semibold text-white" >Success stories</h1>
 						<br/>
-      <div className="w-screen">
-        <Slider options={{ align: "center" }}>
+      <div className="sm:w-full md:w-full ">
+        <Slider options={{ align: "center" }}   >
           {testimonials.map((testimonial, i) => (
             // 2. flex-[0_0_50%] set the width of each card to 50% of the viewport
             // for mobile devices we use 90% width
-            <div key={i} className="flex-[0_0_90%] md:flex-[0_0_50%]">
+            <div key={i} className="flex-[0_0_90%] md:flex-[0_0_50%] "   >
               <TestimonialCard {...testimonial} />
             </div>
           ))}

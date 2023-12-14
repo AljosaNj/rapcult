@@ -2,9 +2,9 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Stepper from './components/Stepper';
-import SliderCard from './components/SliderCard';
-
+import SliderCard  from './components/SliderCard';
 import ContactAccordion from './components/ContactAccordion';
+import Footer from './components/Footer';
 
 
 export default function Home() {
@@ -16,11 +16,11 @@ export default function Home() {
      <About />
     
   <Stepper />
-  
-    <SliderCard />
+  <SliderCard />
+   
     
-
-   <ContactAccordion />
+<ContactAccordion />
+  
 
     </div>
     

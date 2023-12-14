@@ -2,16 +2,16 @@
 export default function Home() {
   return (
     <div className="bg-black   ">
-   <footer className="p-6  bg-boxgrey dark:text-gray-100 rounded-t-lg ">
-<div className="flex justify-between  ">
- <h1 className="text-3xl font-bold  ml-12 text-white">RAPCULT</h1>
- <a className="me-12  ">RAPUCULT JOIN</a>
+   <footer className="p-6  bg-boxgrey  rounded-t-lg ">
+<div className=" ">
+ <h1 className="text-3xl font-bold  ml-12  text-white">RAPCULT</h1>
+ <a className=" ">RAPUCULT JOIN</a>
 </div>
 
 <br/>
 <br/>
-	<div className="container grid grid-cols-2 ml-12 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
-		<div className="flex flex-col space-y-4">
+	<div className="container grid grid-cols-2  mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4 ml-12">
+		<div className="flex flex-col space-y-4 ">
    
 			<h2 className="font-semibold text-grey">NAVIGATE
 </h2>
@@ -41,6 +41,14 @@ export default function Home() {
 			
 			</div>
 		</div>
+
+
+		<div className="flex flex-col space-y-4">
+			<h2 className="font-semibold text-grey">rapcult join</h2>
+
+		</div>
+
+
 	
 	</div>
 
