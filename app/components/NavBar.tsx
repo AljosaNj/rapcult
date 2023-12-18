@@ -13,7 +13,7 @@ export default function HavBar() {
     <div >
     <nav className="w-full bg-black fixed top-0 left-0 right-0 z-10">
       
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-6"  >
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-1"  >
 
     <div>
      <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -50,7 +50,7 @@ export default function HavBar() {
                 navbar ? 'p-12 md:p-0 block' : 'hidden'
               }`}
             >
-              <ul className="h-screen md:h-auto items-center justify-center md:flex  ">
+              <ul className="h-screen md:h-auto items-center justify-center md:flex  md:truncate  ">
                 <li className="pb-4 text-xs text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-red  border-red  md:hover:text-red md:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
                     HOW IT WORKS
@@ -77,11 +77,11 @@ export default function HavBar() {
                     RAPCULT
                   </Link>
                 </li>
-<li className=" invisible  md:visible ">
+<li className=" invisible  lg:visible ">
 
 
    <a href=""
-     className="flex items-center justify-center w-max  bg-red text-white  px-4 py-2 text-sm font-bold leading-5 capitalize duration-100 rounded-sm cursor-pointer focus:ring-opacity-50    outline-none    border-text  hover:shadow-lg hover:-translate-y-1   truncate   sm:px-20 ">
+     className="flex items-center justify-center w-max  bg-red text-white  px-4 py-2 text-xs font-bold leading-5 capitalize duration-100 rounded-sm cursor-pointer focus:ring-opacity-50    outline-none    border-text  hover:shadow-lg hover:-translate-y-1   truncate   sm:px-20 ">
        JOIN RAPCULT
 									 <span className="ml-2 ">
             <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" className="w-5 h-5 fill-current"><path fill="currentColor" d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path>
