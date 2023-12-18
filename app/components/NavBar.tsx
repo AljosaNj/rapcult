@@ -12,7 +12,8 @@ export default function HavBar() {
   return (
     <div >
     <nav className="w-full bg-black fixed top-0 left-0 right-0 z-10">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8"  >
+      
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-6"  >
 
     <div>
      <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -76,27 +77,19 @@ export default function HavBar() {
                     RAPCULT
                   </Link>
                 </li>
-
-         <li className="  pb-3 text-xs text-white py-2 px-4  text-center   md:hover:bg-transparent 
-         
-          invisible md:visible md:flex
-            flex space-x-1   
-          items-center  bg-red drop-shadow-md 
-         
-         ">
-              
-<a className="text-white    ">  JOIN RAPCULT  </a>
-                 <IoMdArrowForward />
+<li className=" invisible  md:visible ">
 
 
-               
-
-
-              
-                  
-                  
-                </li>
-
+   <a href=""
+     className="flex items-center justify-center w-max  bg-red text-white  px-4 py-2 text-sm font-bold leading-5 capitalize duration-100 rounded-sm cursor-pointer focus:ring-opacity-50    outline-none    border-text  hover:shadow-lg hover:-translate-y-1   truncate   sm:px-20 ">
+       JOIN RAPCULT
+									 <span className="ml-2 ">
+            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" className="w-5 h-5 fill-current"><path fill="currentColor" d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path>
+            </svg>
+        </span>
+    </a>
+</li>
+        
 
                 
 
@@ -136,14 +129,23 @@ export default function HavBar() {
 */
 
 /*
- <li className="pb-4 text-sm text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  
-                 <button className="flex space-x-2 items-center px-3 py-2 bg-rose-500 hover:bg-rose-800 rounded-md drop-shadow-md">
-            <span className="text-white">  JOIN RAPCULT  </span>
+
+ <li className="  pb-3 text-xs text-white py-2 px-4  text-center   md:hover:bg-transparent 
+         
+          invisible  md:visible   md:flex
+            flex space-x-1   
+          items-center  bg-red drop-shadow-md 
+         
+         ">
+              
+<a className="text-white    ">  JOIN RAPCULT  </a>
                  <IoMdArrowForward />
 
-          
-        </button>
+
+               
+
+
+              
                   
                   
                 </li>

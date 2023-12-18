@@ -70,13 +70,24 @@ adipiscing elit. Sed id varius purus.   </h4>
           className="w-full resize-none  border border-grey bg-pacgrey py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-red focus:shadow-md"
         ></textarea>
       </div>
-      <div>
-        <button
-          className="hover:shadow-form  bg-red py-3 px-8 text-base font-semibold text-white outline-none"
-        >
-          Submit
-        </button>
+      <div className=" flex flex-col   w-full sm:w-auto sm:flex-row " >
+    <a href=""
+     className="flex items-center justify-center w-max  bg-red text-white  px-4 py-2 text-sm font-bold leading-5 capitalize duration-100 rounded-sm cursor-pointer focus:ring-opacity-50    outline-none    border-text  hover:shadow-lg hover:-translate-y-1   truncate    ">
+        SEND MESSAGE
+									 <span className="ml-2 ">
+            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" className="w-5 h-5 fill-current"><path fill="currentColor" d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"></path>
+            </svg>
+        </span>
+    </a>
+
+       
+
+
+
+
       </div>
+
+
     </form>
   </div>
 </div>
@@ -91,7 +102,16 @@ adipiscing elit. Sed id varius purus.   </h4>
 
 
 
+/*
+ <button
+          className="hover:shadow-form  bg-red py-3 px-8 text-base font-semibold text-white outline-none"
+        >
+          Submit
 
+
+        </button>
+
+*/
 
 
 
