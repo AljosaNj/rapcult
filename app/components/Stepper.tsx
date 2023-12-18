@@ -79,7 +79,7 @@ rapcult is welcoming and supportive community
 
     <div className="grid px-6  md:px-6 lg:grid-cols-5 
     md:grid-cols-2
-    xl:px-3 margin-top: -200px   bg-boxgrey   gap-3  ">
+    xl:px-3 margin-top: -200px   bg-boxgrey   gap-3  sm:mt-8 ">
       <div className="p-0 py-16 bg-boxgrey ">
         <div
           className="block h-full rounded-lg   bg-pacgrey  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 ">
