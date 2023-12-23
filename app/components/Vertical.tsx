@@ -10,7 +10,7 @@ export default function Vertical() {
     <h1 className="text-4xl font-semibold"   >HOW IT WORKS</h1>
 </div>
 <br/>
-    <div className="border-2-2 absolute  border-red h-4/5
+    <div className="border-2-2 absolute  border-red lg:h-4/5 md:h-5/6 sm:h-5/6
      border left-1/2  z-0 " ></div>
    
     <div className="mb-8 flex justify-center items-center w-full right-timeline  gap-12  ">
@@ -18,11 +18,11 @@ export default function Vertical() {
       <div className="z-0 flex items-center order-1 bg-red shadow-xl w-12 h-12   rounded-full ">
         <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-3/12 px-6 py-4  sm:px-2  ">
-        <h3 className="mb-3 font-bold text-gray-800 text-xl sm:text-sm">Join
+      <div className="order-1 bg-black rounded-lg  w-3/12 px-6 py-4  sm:px-2  ">
+        <h3 className="mb-3 font-bold text-white text-xl sm:text-sm">Join
 
 the Cult</h3>
-        <p className="text-sm  sm:text-xs leading-snug tracking-wide text-gray-900 text-opacity-100">
+        <p className="text-sm  sm:text-xs leading-snug tracking-wide text-grey  text-opacity-100">
 Sign up with Rapcult and be part of an
 independent record label that understands
 your ambition and supports your dreams.
@@ -38,11 +38,12 @@ your ambition and supports your dreams.
       <div className="z-0 flex items-center order-1 bg-red shadow-xl w-12 h-12 rounded-full">
         <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
       </div>
-      <div className="order-1 bg-red rounded-lg shadow-xl w-3/12 px-6 py-4 sm:px-2">
+      <div className="order-1 bg-black rounded-lg  w-3/12 px-6 py-4 sm:px-2">
         <h3 className="mb-3 font-bold text-white text-right text-xl sm:text-sm">Grant Your<br/>
 
 Song Rights</h3>
-        <p className="text-sm sm:text-xs  text-right font-medium leading-snug tracking-wide text-white text-opacity-100">
+        <p className="text-sm sm:text-xs  text-right font-medium leading-snug tracking-wide text-grey
+         text-opacity-100">
 Give us the privilege to distribute your work to
 connect with your followers and the rap 
 enthusiasts around the globe
@@ -58,11 +59,11 @@ enthusiasts around the globe
       <div className="z-0 flex items-center order-1 bg-red shadow-xl w-12 h-12 rounded-full">
         <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-3/12 px-6 py-4 sm:px-2">
-        <h3 className="mb-3 font-bold text-gray-800 text-xl sm:text-sm">Garner Recognition
+      <div className="order-1 bg-black rounded-lg  w-3/12 px-6 py-4 sm:px-2">
+        <h3 className="mb-3 font-bold text-white text-xl sm:text-sm">Garner Recognition
 
 & Success</h3>
-        <p className="text-sm sm:text-xs leading-snug tracking-wide text-gray-900 text-opacity-100">
+        <p className="text-sm sm:text-xs leading-snug tracking-wide text-grey text-opacity-100">
           We help you gain hundreds of thousands of 
 streams across platforms like Spotify and more, 
 bringing your music to the recognition it deserves.
