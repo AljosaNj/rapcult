@@ -8,34 +8,34 @@ export default function Logo() {
     <div className=' pb-20   items-center text-center mx-auto '>
    <h1  className='md:text-center text-grey'>TECHNOLOGY  TRUSTED BY</h1>
    <br/>
-   <div className='grid sm:grid-cols-2       md:grid-cols-4 gap-8  sm:px-5      '   >
+   <div className='grid sm:grid-cols-2       md:grid-cols-4 gap-10  sm:px-5      '   >
      <Image
        
-      src="/images/logo4.jpg"
-      width={160}
+      src="/images/logoicon1.png"
+      width={100}
       height={100}
       alt="Picture of the author"
     />
 
      <Image
        
-      src="/images/logo2.jpg"
-      width={160}
+      src="/images/logoicon2.png"
+      width={100}
       height={100}
       alt="Picture of the author"
     />
      <Image
        
-      src="/images/logo3.jpg"
-      width={160}
+      src="/images/logoicon3.png"
+      width={100}
       height={100}
       alt="Picture of the author"
     />
    
          <Image
           
-      src="/images/logo4.jpg"
-      width={160}
+      src="/images/logoicon4.png"
+      width={100}
       height={100}
       alt="Picture of the author"
     />
