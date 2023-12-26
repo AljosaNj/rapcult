@@ -80,7 +80,7 @@ rapcult is welcoming and supportive community
     <div className="grid px-6  md:px-6 lg:grid-cols-5 
     md:grid-cols-2
     xl:px-3 margin-top: -200px   bg-boxgrey   gap-3  sm:gap-0 sm:mt-8 ">
-      <div className="p-0 py-16 bg-boxgrey ">
+      <div className="p-0 py-16 bg-boxgrey  sm:px-10">
         <div
           className="block h-full rounded-lg   bg-pacgrey  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 ">
           <div className="border-b-2 border-grey border-opacity-50 p-3 text-center dark:border-opacity-10     "    >
@@ -128,7 +128,7 @@ rapcult is welcoming and supportive community
       </div>
 
 
-      <div className="py-16   bg-boxgrey ">
+      <div className="py-16   bg-boxgrey sm:px-10 ">
         <div
           className="block h-full rounded-lg  bg-pacgrey shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700  "
          >
@@ -143,7 +143,7 @@ rapcult is welcoming and supportive community
 
            
           </div>
-          <div className="p-6">
+          <div className="p-6  " >
             <ol className="list-inside text-grey ">
               <li className="mb-4 flex text-xs"  ><strong>Everything in <strong className="text-red">Bronze</strong>,plus:</strong> </li>
               <li className="mb-4 flex">
@@ -178,7 +178,7 @@ rapcult is welcoming and supportive community
       
 
       
-<div className="py-16  bg-boxgrey">
+<div className="py-16  bg-boxgrey sm:px-10">
         <div
           className="block h-full rounded-lg   bg-pacgrey  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700  "
          >
@@ -243,7 +243,7 @@ rapcult is welcoming and supportive community
 
 
 
-<div className="p-0 py-16 bg-boxgrey ">
+<div className="p-0 py-16 bg-boxgrey sm:px-10 ">
         <div
           className="block h-full rounded-lg   bg-pacgrey  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 ">
           <div className="border-b-2 border-grey border-opacity-50 p-3 text-center dark:border-opacity-10">
@@ -292,7 +292,7 @@ rapcult is welcoming and supportive community
 
 
 
- <div className="py-16  bg-boxgrey">
+ <div className="py-16  bg-boxgrey sm:px-10">
         <div
           className="block h-full rounded-lg  bg-pacgrey  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 "
          >
