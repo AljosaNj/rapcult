@@ -17,7 +17,7 @@ export default function About() {
     
 
      
-     <div className="pb-20">
+     <div className=" pb-20  ">
        <PhotoGrid   />
      </div>
      

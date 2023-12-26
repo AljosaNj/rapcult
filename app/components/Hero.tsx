@@ -17,7 +17,7 @@ export default function Hero() {
     AND STREAM YOUR WAY TO SUCCESS
     </p>
  <br/>
-
+<br/>
   <div className=" flex items-center  text-center justify-center  ">
 
     <a href=""
@@ -28,10 +28,11 @@ export default function Hero() {
             </svg>
         </span>
     </a>
-			
+		
     </div>
    
-
+	<br/>
+  <br/>
    </div>
 </div>
     
