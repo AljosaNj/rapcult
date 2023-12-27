@@ -12,7 +12,7 @@ export default function SliderCard() {
       {/* 1. make sure our carousel container takes up the full screen width using w-screen */}
 						<br/>
 						<h1 className="text-5xl font-semibold text-white " >Success stories</h1>
-						<br/>
+						
       <div className="sm:w-full md:w-full ">
         <Slider options={{ align: "center" }}   >
           {testimonials.map((testimonial, i) => (
