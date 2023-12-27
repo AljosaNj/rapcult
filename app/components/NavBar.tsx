@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from 'next/link';
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
-import { IoMdArrowForward } from "react-icons/io";
+
 
 export default function HavBar() {
 
@@ -52,28 +52,28 @@ export default function HavBar() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex  md:truncate  ">
                 <li className="pb-4 text-xs text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-red  border-red  md:hover:text-red md:hover:bg-transparent">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#hero" onClick={() => setNavbar(!navbar)}>
                     HOW IT WORKS
                   </Link>
                 </li>
                 <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-red  border-red  md:hover:text-red md:hover:bg-transparent">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
                   PACKAGES
                   </Link>
                 </li>
                 <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0 hover:bg-red  border-red  md:hover:text-red     md:hover:bg-transparent ">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#vertical" onClick={() => setNavbar(!navbar)}>
                     SUCCESS STORIES
                   </Link>
                 </li>
                 <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0   hover:bg-red  border-red  md:hover:text-red    md:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#slider" onClick={() => setNavbar(!navbar)}>
                    ABOUT RAPCULT
                   </Link>
                 </li>
 
-                <li className="pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0 hover:bg-red  border-red  md:hover:text-red     md:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                <li    className="  pb-4 text-xs text-white py-2 px-6 text-center  border-b-2 md:border-b-0 hover:bg-red  border-red  md:hover:text-red     md:hover:bg-transparent">
+                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     RAPCULT
                   </Link>
                 </li>
