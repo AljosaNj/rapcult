@@ -83,7 +83,7 @@ bringing your music to the recognition it deserves.
 
   
 <div className="absolute items-center  justify-center  ">
-     <h1 className="  outline-title  text-[250px]  truncate text-clip  text-red">
+     <h1 className="  outline-title  text-[250px] sm:text-[180px]    truncate text-clip  text-red">
      OIN RAPCULT</h1>
   </div>
 

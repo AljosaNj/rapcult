@@ -46,7 +46,7 @@ export default function Home() {
 
 		<div className="flex flex-col space-y-4  ">
 		
-<div className=" flex flex-col   w-full sm:w-auto sm:flex-row  ">
+<div className=" flex flex-col   w-full sm:w-auto sm:flex-row invisible  lg:visible ">
   
 
     <a href=""

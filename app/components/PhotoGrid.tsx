@@ -6,7 +6,7 @@ export default function PhotoGrid() {
     <br/>
     <br/>
     <br/>
-<h1  className='md:text-left text-white font-bold text-2xl  ml-12 '>JOIN CREATIVE<br/> COMMUNITY</h1>
+<h1  className='md:text-left text-white font-bold text-2xl  ml-12 sm:text-lg sm:text-left'>JOIN CREATIVE<br/> COMMUNITY</h1>
    <br/>
    <br/>
    
@@ -70,7 +70,7 @@ export default function PhotoGrid() {
     </div>
     <br/>
    <br/>
-<h1  className='md:text-right text-grey font-bold text-2xl  mr-12   '>OF CREATORS<br/> LIKE YOU</h1>
+<h1  className='md:text-right text-grey font-bold text-2xl  mr-12   sm:text-lg sm:text-right'>OF CREATORS<br/> LIKE YOU</h1>
 
     </div>
   )

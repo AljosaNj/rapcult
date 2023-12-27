@@ -7,10 +7,11 @@ export default function SliderCard() {
   return (
 			
     <div
-      className="flex  min-h-screen   flex-col items-center justify-between py-20  bg-black   " 
+      className="flex  min-h-screen   flex-col items-center justify-between py-15  bg-black   " 
     >
       {/* 1. make sure our carousel container takes up the full screen width using w-screen */}
-						<h1 className="text-5xl font-semibold text-white" >Success stories</h1>
+						<br/>
+						<h1 className="text-5xl font-semibold text-white " >Success stories</h1>
 						<br/>
       <div className="sm:w-full md:w-full ">
         <Slider options={{ align: "center" }}   >

@@ -8,11 +8,11 @@ export default function Hero() {
      <br></br>
      <br></br>
      <br></br>
-    <h1 className="text-7xl font-semibold  ">DOMINATE THE INDUSTRY</h1>
-        <h1 className="text-6xl font-semibold">WITH RAPCULT</h1>
+    <h1 className="text-7xl font-semibold  sm:text-6xl">DOMINATE THE INDUSTRY</h1>
+        <h1 className="text-6xl font-semibold  sm:text-5xl">WITH RAPCULT</h1>
         <br></br>
        
-    <p className="font-light text-lg mt-5 text-grey">JOIN US, GARNER RECOGNITION
+    <p className="font-light text-lg mt-5 text-grey sm:text-lg">JOIN US, GARNER RECOGNITION
     <br></br>
     AND STREAM YOUR WAY TO SUCCESS
     </p>

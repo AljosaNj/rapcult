@@ -5,7 +5,6 @@ import Stepper from './components/Stepper';
 import SliderCard  from './components/SliderCard';
 import ContactAccordion from './components/ContactAccordion';
 import Footer from './components/Footer';
-import Progress from './components/Progress';
 import Vertical from './components/Vertical';
 
 

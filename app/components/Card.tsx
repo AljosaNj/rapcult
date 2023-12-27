@@ -39,7 +39,7 @@ export default function Card() {
     ];
     return (
         <>
-            <div className="grid gap-2 lg:grid-cols-3 md:grid-cols-2      bg-pacgrey  ">
+            <div className="grid gap-2 lg:grid-cols-3 md:grid-cols-2   bg-pacgrey  sm:px-5  ">
                  
                 {posts.map((items, key) => (
                     <div className="w-full rounded-lg  lg:max-w-sm" key={key}>
@@ -49,11 +49,11 @@ export default function Card() {
                         <div className="p-4">
  <span className='object-cover w-100 h-100 mb-2 text-red'>{items.icon}</span>
 
-                            <h4 className="text-xl font-semibold text-red   ">
+                            <h4 className="text-xl font-semibold text-red sm:text-lg  ">
                                 
                                 {items.title}
                             </h4>
-                            <p className="mb-2 leading-normal text-grey">
+                            <p className="mb-2 leading-normal text-grey sm:text-sm">
                             {items.content}
                             </p>
                             <button className="px-4 py-2 pb-1 text-sm text-red rounded shadow flex space-x-1   ">

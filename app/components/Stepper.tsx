@@ -14,9 +14,9 @@ export default function Stepper() {
    
 
     <div className="background-radial-gradient text-center text-white lg:h-[400px] h-[300px] lg:pt-[80px] pt-[55px]">
-      <h1 className="mb-12 text-center text-6xl font-bold text-white">JOIN RAPCULT</h1>
+      <h1 className="mb-12 text-center text-6xl sm:text-4xl font-bold text-white">JOIN RAPCULT</h1>
 
-       <h2 className="text-center text-xl text-grey">all artists are welcome to get in touch,<br/>
+       <h2 className="text-center text-xl sm:text-lg text-grey">all artists are welcome to get in touch,<br/>
 
 rapcult is welcoming and supportive community
 </h2>
@@ -36,7 +36,7 @@ rapcult is welcoming and supportive community
              justify-center ">
 
 
- <form className='w-[350px] relative border border-grey'>
+ <form className='w-[350px]  sm:w-[250px]  relative border border-grey'>
         <div className="relative">
             <input type="search" placeholder='http://' className='w-full p-4  bg-boxgrey ' />
            
@@ -78,7 +78,7 @@ rapcult is welcoming and supportive community
 
 
     <div className="grid px-6  md:px-6 lg:grid-cols-5 
-    md:grid-cols-2
+    md:grid-cols-2 
     xl:px-3 margin-top: -200px   bg-boxgrey   gap-3  sm:gap-0 sm:mt-8 ">
       <div className="p-0 py-16 bg-boxgrey  sm:px-10">
         <div

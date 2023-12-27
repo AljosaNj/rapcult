@@ -5,6 +5,7 @@ import { IoMdArrowForward } from "react-icons/io";
 export default function ContactAccordion() {
   return (
     <div className="bg-black">
+      <br/>
     <div className=" relative flex justify-between      md:flex-row md:space-x-7 space-y-3 md:space-y-0 rounded-xl shadow-lg p-8 max-w-xs md:max-w-3xl mx-auto border border-pacgrey bg-red cursor-pointer sm:grid grid-cols-1   ">
       <div>
       <h1 className="text-4xl sm:text-1xl font-semibold text-center text-white">get your success story
